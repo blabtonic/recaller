@@ -5,3 +5,7 @@ gem install "sinatra"
 gem install "data_mapper"
 gem install "dm-core"
 gem install "dm-sqlite-adapter"
+
+group :production do 
+  gem 'pg'
+end
